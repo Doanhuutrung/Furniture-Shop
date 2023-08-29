@@ -159,6 +159,9 @@ h1.premium-heading {
   background-size: 34%;
   background-repeat: no-repeat;
 }
+.content-3{
+  overflow: hidden;
+}
 .special-heading {
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
@@ -172,7 +175,6 @@ h1.premium-heading {
   text-decoration-line: line-through;
   margin-right: 5px;
 }
-
 .special-list {
   display: flex;
   align-items: center;
@@ -368,7 +370,7 @@ a.special-category {
 button.slick-arrow {
   display: none !important;
 }
-.sec-lounge {
+.content-4 {
   padding-bottom: 120px;
 }
 .bathoom-col {
