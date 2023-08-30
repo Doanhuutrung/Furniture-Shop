@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$(".sepical-list").slick({
+	$(".special-list").slick({
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
