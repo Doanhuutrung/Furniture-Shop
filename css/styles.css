@@ -127,7 +127,7 @@
     color: #231F20;
 }
 .home .home-img-price {
-    position: absolute;
+    position: absolute;     
     top: 5.5%;
     right: 5%;
     text-align: end;
@@ -143,14 +143,16 @@
     text-decoration: underline;
     color: #fff;
 }
-.home .home-detail button {
+.home .home-detail a {
+    min-height: 87px;
+    width: 300px;
     background-color: #50c1c7;
     padding: 32px 84px;
     border: none;
     color: white;
     margin-top: 80px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -210,14 +212,19 @@
     color: #46464E;
     text-align: justify;
 }
-.livingroom button {
+.livingroom a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 ;
+    min-height: 87px;
+    width: 249px;
     background-color: #50c1c7;
-    padding: 34px 72px;
+    padding: 20px;
     border: none;
     color: white;
-    margin-top: 80px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     cursor: pointer;
     transition: 0.4s;
     margin-top: 50px !important;
@@ -263,6 +270,9 @@
 }
 .special .product-img img {
     width: 100%;
+    width: 362px;
+    min-height: 544px;
+    flex: 0 0 auto;
 }
 .special .special-title {
     text-align: center;
@@ -323,7 +333,8 @@
     text-decoration: line-through;
     margin-right: 5px;
   }
-.special .product-content button {
+  .special .product-content a {
+    min-height: 87px;
     background-color: #50c1c7;
     padding: 33px 0px;
     border: none;
@@ -333,8 +344,10 @@
     font-weight: 400;
     cursor: pointer;
     transition: 0.4s;
+    display: block;
     width: 250px !important;
     margin-top: 32px !important;
+    margin: 0 auto;
 }
 
 
@@ -480,14 +493,14 @@
     outline: none;
     font-size: 1rem;
 }
-.contact .contact-form button {
-    /* background-color: #50c1c7; */
+.contact .contact-form a {
+    display: flex;
+    justify-content: center;
     padding: 35px 0px;
     border: none;
     color: white;
-    /* margin-top: 80px; */
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;   
     cursor: pointer;
     transition: 0.4s;
     margin-top: 50px !important;
