@@ -31,15 +31,16 @@
 }
 .header .header-menu-nav nav a {
     color: #231F20;
-    font-weight: 700;
+    font-weight: 600;
 }
 .header .header-menu-search {
     position: relative;
 }
 .header .header-menu-search input {
+    font-weight: 300;
     border-radius: 25px;
     padding: 5px 15px;
-    border: 3px solid #231F20;
+    border: 4px solid #231F20;
     height: 45px;
     width: 250px;
     background-color: transparent;
@@ -75,32 +76,7 @@
 .header .menu-mobile {
     display: none;
   }
-  .header input[type=checkbox]:checked ~ .header-menu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .header input[type=checkbox]:checked ~ .header-menu .header-menu-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 50px;
-    animation-name: showMenu;
-    animation-duration: 0.7s;
-  }
-  @keyframes showMenu {
-    0% {
-      opacity: 0;
-      top: -30%;
-    }
-    100% {
-      opacity: 1;
-      top: 0%;
-    }
-  }
-  .header input[type=checkbox]:checked ~ .header-menu .header-menu-nav nav {
-    display: flex;
-    flex-direction: column;
-  }
+
   .header .header-menu {
     max-width: 1245px;
     margin: 0 auto;
@@ -134,7 +110,7 @@
 .home .home-detail-title {
     font-size: 4.5rem;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 400;
     margin-bottom: 0;
     margin-top: 52px;
     color: #231F20;
@@ -221,7 +197,7 @@
 }
 .livingroom .livingroom-detail-title {
     font-size: 3.5rem;
-    font-weight: 900;
+    font-weight: 400;
     margin-top: 38px;
     margin-bottom: 0;
     line-height: 1;
@@ -269,7 +245,7 @@
     text-align: center;
     padding-top: 131px;
     padding-left: 118px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 3.3rem;
     color: #231F20;
 }
@@ -327,15 +303,26 @@
 }
 .special .product-title {
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 600;
     margin-bottom: 0px;
     color: #231F20;
 }
-.special .product-price {
+  .special .product-price {
     margin-top: 15px;
     font-weight: 400;
     color: #46464E;
-}
+  }
+  .special .product-price span {
+    margin-right: 5px;
+  }
+  .special .product-price i {
+    margin-left: 5px;
+  }
+  .special .product-price-cost {
+    color: red;
+    text-decoration: line-through;
+    margin-right: 5px;
+  }
 .special .product-content button {
     background-color: #50c1c7;
     padding: 33px 0px;
@@ -380,10 +367,10 @@
     text-align: center;
 }
 .categories .categories-content-title {
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: 400;
     text-align: center;
-    width: 195px;
+    /* width: 195px; */
     margin-bottom: 15px;
     color: #231F20;
 }
@@ -417,8 +404,8 @@
     position: relative;
 }
 .categories .special-content-title {
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 3rem;
+    font-weight: 400;
     text-align: center;
     width: 195px;
     margin-bottom: 15px;
@@ -480,7 +467,7 @@
     flex-direction: column;
 }
 .contact .form-item label {
-    font-weight: 900;
+    font-weight: 6  x`00;
     color: #231F20;
 }
 .contact .form-item input {
@@ -517,13 +504,13 @@ footer .footer {
 }
 footer .footer h3 {
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 600;
     margin-bottom: 15px;
     color: #231F20;
 }
 footer .footer h4 {
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 400;
     cursor: pointer;
     margin-bottom: 0;
     color: #231F20;
@@ -544,9 +531,6 @@ footer .footer li {
 }
 footer .footer li a {
     color: #46464E;
-}
-a:not([class]) {
-    color: inherit;
 }
 footer .footer .footer-social {
     position: absolute;
